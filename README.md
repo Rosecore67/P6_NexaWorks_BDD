@@ -193,7 +193,7 @@ Avant de commencer, assurez-vous d'avoir :
 - Un éditeur de texte pour modifier les variables de connexion dans le fichier **.bat** (comme Notepad ou VSCode).
 
 ### Structure du Projet
-Le dossier contenant les fichiers nécessaires à la création de la base de données s'appelle **Script_BDD_P6_Exam**. Il comprend les scripts SQL pour créer et peupler la base de données ainsi qu'un script batch (.bat) pour automatiser l'exécution de ces scripts.
+Le dossier contenant les fichiers nécessaires à la création de la base de données s'appelle **Script_BDD_P6_Exam**. Il comprend les scripts SQL pour créer et remplir la base de données ainsi qu'un script batch (.bat) pour automatiser l'exécution de ces scripts.
 
 Voici les fichiers que vous trouverez dans ce dossier :
 - **SQLQuery01_Table_Produit_Version_SystemeDexploit...** : Script SQL pour créer les tables principales de la base de données.
@@ -203,7 +203,7 @@ Voici les fichiers que vous trouverez dans ce dossier :
 - (etc. pour chaque script d'insertion de données)
 
 ### Automatisation avec le Script Batch
-Pour automatiser la création et le peuplement de la base de données, un script batch a été créé : **Script_table_Copie.bat**. Ce fichier .bat prend en charge la création de la base de données et l'exécution de chaque script SQL dans le dossier.
+Pour automatiser la création et le remplissage de la base de données, un script batch a été créé : **Script_table_Copie.bat**. Ce fichier .bat prend en charge la création de la base de données et l'exécution de chaque script SQL dans le dossier.
 
 #### Contenu du Fichier `.bat` :
 
@@ -247,11 +247,7 @@ pause
    - **DATABASE** : Le nom de la base de données à créer (par défaut `P6_NexaWorks_BDDTESTINT`, modifiable selon vos besoins).
 
 3. **Exécuter le Script Batch**
-   - Ouvrez une fenêtre de **Commande** (cmd) et naviguez jusqu'au dossier **Script_BDD_P6_Exam**.
-   - Exécutez le fichier **Script_table_Copie.bat** en tapant :  
-     ```cmd
-     Script_table_Copie.bat
-     ```
+   - Ouvrez le dossier **Script_BDD_P6_Exam** et double clicker sur le fichier **Script_table_Copie.bat**.
    - Le script batch créera la base de données et exécutera chaque fichier .sql pour créer les tables et insérer les données.
 
 4. **Vérification**  
