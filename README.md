@@ -2,7 +2,8 @@
 
 ### Diagramme entité-association
 
-![Capture d'écran 2024-10-01 123647](https://github.com/user-attachments/assets/f06a0817-1ce0-4d88-9d31-e51e44258747)
+![Capture d'écran 2024-10-18 113927](https://github.com/user-attachments/assets/2d0c6e8c-ebe4-4c89-a659-9254fe42471c)
+
 
 ---
 
